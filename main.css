@@ -1,0 +1,16 @@
+html,body {
+  height: 100%;
+}
+
+.words-container {
+  padding: 1rem;
+}
+
+.letter-box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgba(55,55,55,0.2);
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+}

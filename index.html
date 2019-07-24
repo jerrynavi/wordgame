@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Word Guessing Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12">
+          <p class="lead">Click on "Play game" to generate a random 3-letter word, then try to guess what word was formed using the alphabets.</p>
+        </div>
+        
+        <div class="col-12">
+          <div id="words-container">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+
+            <div class="row">
+              <div class="col-12">
+                
+                <div id="letters">
+                  <button type="button" class="btn btn-link btn-sm frmBtn">A</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">B</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">C</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">D</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">E</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">F</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">G</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">H</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">I</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">J</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">K</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">L</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">M</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">N</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">O</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">P</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">Q</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">R</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">S</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">T</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">U</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">V</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">W</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">X</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">Y</button>
+                  <button type="button" class="btn btn-link btn-sm frmBtn">Z</button>
+                </div>
+
+                <p id="prompt"></p>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div id="game-btns">
+            <button type="button" class="btn btn-primary" id="playBtn">Play game</button>
+            <button type="button" class="btn btn-secondary" id="checkBtn">Check</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
